@@ -33,7 +33,7 @@ export default function Home() {
             <img
               alt='headshot.png'
               src='/headshot_glow.jpg'
-              className="rounded-md mb-4 h-72 mx-auto border"
+              className="rounded-md mb-4 h-48 lg:h-72 mx-auto border"
             />
 
             <h1 className="text-6xl pixel-font">
