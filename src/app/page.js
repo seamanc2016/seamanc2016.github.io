@@ -36,11 +36,11 @@ export default function Home() {
               className="rounded-md mb-4 h-48 lg:h-72 mx-auto border"
             />
 
-            <h1 className="text-6xl pixel-font">
+            <h1 className="text-3xl lg:text-6xl pixel-font">
               Charles Emile Seaman
             </h1>
 
-            <p className="mt-4 text-xl pixel-font">
+            <p className="lg:mt-4 mt-1 text-sm lg:text-xl pixel-font ">
               Software Engineer | Aspiring Data Scientist
             </p>
 
