@@ -30,19 +30,23 @@ export default function Home() {
         {/* Foreground content */}
         <div className="relative z-10 flex h-full items-center justify-center">
           <div className="text-center text-gray-200 font-bold">
-            <img
-              alt='headshot.png'
-              src='/headshot_glow.jpg'
-              className="rounded-md mb-4 h-48 lg:h-72 mx-auto border"
-            />
+            <div className='select-none pointer-events-none'>
+              <img
+                alt='headshot.png'
+                src='/headshot_glow.jpg'
+                draggable="false"
+                className="rounded-md mb-4 h-48 lg:h-72 mx-auto border"
+              />
 
-            <h1 className="text-3xl lg:text-6xl pixel-font">
-              Charles Emile Seaman
-            </h1>
+              <h1 className="text-3xl lg:text-6xl pixel-font">
+                Charles Emile Seaman
+              </h1>
 
-            <p className="lg:mt-4 mt-1 text-sm lg:text-xl pixel-font ">
-              Software Engineer | Aspiring Data Scientist
-            </p>
+              <p className="lg:mt-4 mt-1 text-sm lg:text-xl pixel-font">
+                Software Engineer | Aspiring Data Scientist
+              </p>
+
+            </div>
 
             <div className="mt-2 flex justify-center gap-6">
               <a
