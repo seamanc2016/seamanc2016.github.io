@@ -29,7 +29,7 @@ export default function Home() {
 
         {/* Foreground content */}
         <div className="relative z-10 flex h-full items-center justify-center">
-          <div className="text-center text-gray-200 font-bold">
+          <div className="text-center text-gray-200 font-bold animate-in fade-in duration-2000">
             <div className='select-none pointer-events-none'>
               <img
                 alt='headshot.png'
