@@ -35,20 +35,20 @@ export default function Home() {
                 alt='headshot.png'
                 src='/headshot_glow.jpg'
                 draggable="false"
-                className="rounded-md mb-4 h-48 lg:h-72 mx-auto border"
+                className="rounded-md mb-4 h-48 md:h-90 lg:h-75 mx-auto border"
               />
 
-              <h1 className="text-3xl lg:text-6xl pixel-font">
+              <h1 className="text-3xl md:text-5xl lg:text-6xl pixel-font">
                 Charles Emile Seaman
               </h1>
 
-              <p className="lg:mt-4 mt-1 text-sm lg:text-3xl pixel-font">
+              <p className="lg:mt-4 mt-1 md:mt-4 text-md md:text-3xl pixel-font">
                 Software Developer
               </p>
 
             </div>
 
-            <div className="mt-2 flex justify-center gap-6">
+            <div className="mt-2 flex justify-center gap-2 md:gap-6">
               <a
                 href="https://github.com/seamanc2016"
                 target="_blank"
@@ -56,7 +56,7 @@ export default function Home() {
                 aria-label="GitHub"
                 className="p-2  transition hover:opacity-70"
               >
-                <GithubIcon size={36} />
+                <GithubIcon className="h-8 w-8 md:h-12 md:w-12" />
               </a>
 
               <a
@@ -66,7 +66,7 @@ export default function Home() {
                 aria-label="LinkedIn"
                 className="p-2  transition hover:opacity-70"
               >
-                <LinkedinIcon size={36} />
+                <LinkedinIcon className="h-8 w-8 md:h-12 md:w-12" />
               </a>
 
               <a
@@ -74,7 +74,7 @@ export default function Home() {
                 aria-label="Email"
                 className="p-2  transition hover:opacity-70"
               >
-                <EnvelopeSolidIcon size={36} />
+                <EnvelopeSolidIcon className="h-8 w-8 md:h-12 md:w-12" />
               </a>
             </div>
           </div>
