@@ -42,8 +42,8 @@ export default function Home() {
                 Charles Emile Seaman
               </h1>
 
-              <p className="lg:mt-4 mt-1 text-sm lg:text-xl pixel-font">
-                Software Engineer | Aspiring Data Scientist
+              <p className="lg:mt-4 mt-1 text-sm lg:text-3xl pixel-font">
+                Software Developer
               </p>
 
             </div>
